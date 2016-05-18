@@ -7,7 +7,7 @@
 # WEBSITE     : http://www.tormuto.com	                                      #
 ###############################################################################
 
-class ControllerPaymentGTBStandard extends Controller {
+class ControllerPaymentJOSTPAYStandard extends Controller {
 	private $error = array();
 
 	public function index() 

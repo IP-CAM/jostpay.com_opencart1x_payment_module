@@ -7,7 +7,7 @@
 # WEBSITE     : http://www.tormuto.com	                                      #
 ###############################################################################
 
-class ModelPaymentGTBStandard extends Model {
+class ModelPaymentJOSTPAYStandard extends Model {
   	public function getMethod($address, $total) {
 		$this->language->load('payment/jostpay_standard');
 		
