@@ -18,13 +18,9 @@
         <table class="form">
 		<tr>
             <td>Merchandant ID</td>
-            <td><input type="text" name="jostpay_mert_id" value="<?php echo $jostpay_mert_id; ?>" /></td>
+            <td><input type="number" name="jostpay_mert_id" value="<?php echo $jostpay_mert_id; ?>" required /></td>
           </tr>     
 		  
-		  <tr>
-            <td>Hash Key</td>
-            <td><input type="text" name="jostpay_HashKey" value="<?php echo $jostpay_HashKey; ?>" /></td>
-          </tr> 
           
           <tr>
             <td><?php echo $entry_transaction; ?></td>

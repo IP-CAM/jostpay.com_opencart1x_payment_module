@@ -41,7 +41,6 @@ $_['free_client']					 = 'Fee paid by System:';
 $_['escrow']						 = 'Escrow Payment:';
 //$_['logo_url']					     = 'Logo URL:';
 $_['merchandant_Id']			 = 'Merchant ID:';
-$_['hash_key']					 	 = 'Hash Key:';
 
 // Error
 $_['error_permission']				 = 'Warning: You do not have permission to modify payment JostPay!';

@@ -112,14 +112,7 @@ class ControllerPaymentJOSTPAYStandard extends Controller {
 		} else {
 			$this->data['jostpay_mert_id'] = $this->config->get('jostpay_mert_id'); 
 		} 
-		
-		if (isset($this->request->post['jostpay_HashKey'])) {
-			$this->data['jostpay_HashKey'] = $this->request->post['jostpay_HashKey'];
-		} else {
-			$this->data['jostpay_HashKey'] = $this->config->get('jostpay_HashKey'); 
-		} 
-		
-		/**/
+
 		if (isset($this->request->post['jostpay_freeclient'])) {
 			$this->data['jostpay_freeclient'] = $this->request->post['jostpay_freeclient'];
 		} else {

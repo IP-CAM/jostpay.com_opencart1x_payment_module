@@ -28,7 +28,6 @@ class ControllerPaymentJOSTPAYStandard extends Controller
 		{		
 
 		$this->data['jostpay_mert_id'] =  $this->config->get('jostpay_mert_id');		
-		$jostpay_HashKey =  $this->config->get('jostpay_HashKey');
 		
 		$this->data['timeStamp'] = time();
 		$this->data['trans_id'] = $trans_id =  time();
